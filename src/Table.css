@@ -1,0 +1,52 @@
+table {
+  border-collapse: collapse;
+  border: 1px solid gray;
+  margin: 10px;
+}
+
+tr {
+  border-bottom: 1px solid rgba(128, 128, 128, 0.328);
+}
+
+tr:nth-child(odd) {
+  background: rgba(0, 0, 0, 0.086);
+}
+
+tr > td {
+  border-right: 1px solid rgba(178, 215, 26, 0.328);
+  padding: 8px;
+}
+
+th {
+  border: 1px solid rgba(128, 128, 128, 0.328);
+  padding: 8px;
+  background: rgba(11, 11, 11, 0.161);
+}
+
+tr > td:nth-child(1) {
+  width: 50px;
+  text-align: center;
+  background: rgba(11, 11, 11, 0.13);
+}
+
+tr:nth-child(odd) > td:nth-child(1) {
+  background: rgba(11, 11, 11, 0.188);
+}
+
+tr:nth-child(even) > td:nth-child(1) {
+  background: rgba(0, 0, 0, 0.024);
+}
+
+th:nth-child(1) td {
+  display: inline-block;
+  text-align: center;
+}
+
+.material-symbols-outlined {
+  font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 14;
+}
+
+.actions span {
+  border: 1px solid blue;
+  margin: 2px;
+}
